@@ -18,5 +18,5 @@ new random colors for squares, choose a color from the colors array to be the "c
 etc.
 ![Alt Text](https://github.com/docmu/rgbGuessingGame/blob/master/Screenshot%20(67).png)
 
-The pickColor function is a helper function used in the reset function to pick a color from the colors array at random. The generateRandomColors is also called within reset. This function generates random rgb colors for the number of squares available.
+The pickColor function is a helper function used in the reset function to pick a color from the colors array at random. The generateRandomColors is also called within reset. This function generates random rgb colors for the number of squares available.  
 ![Alt Text](https://github.com/docmu/rgbGuessingGame/blob/master/Screenshot%20(68).png)
