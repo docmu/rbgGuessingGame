@@ -1,4 +1,4 @@
-# rbgGuessingGame  
+# rgbGuessingGame  
 ## Description
 This game is created with html, css, and JavaScript. In this game, users are presented with a random rgb code. 
 There are 3-6 options to choose from dependind on the mode(i.e Easy/Hard). Guess the rgb color by clicking on the corresponding
