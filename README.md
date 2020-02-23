@@ -7,3 +7,6 @@ header background change to the corresponding correct color. Generate a new game
 
 ## Demo
 <a href="https://imgflip.com/gif/3q2ept"><img src="https://i.imgflip.com/3q2ept.gif" title="made at imgflip.com"/></a>
+
+## Code Samples
+The function below adds click listeners for the squares.
