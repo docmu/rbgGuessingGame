@@ -1,0 +1,89 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+  }
+  .square{
+    width: 30%;
+    background: purple;
+    padding-top: 30%;
+    float: left;
+    margin: 1.66%;
+    /* rounded corners */
+    border-radius: 15%;
+    /* when background changes fade effect 0.6s */
+    transition: background 0.6s;
+    /* for xtra browser support */
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+  }
+  /* smaller squares, centered */
+  #container{
+    max-width: 600px;
+    margin: 20px auto; /*0 t & b; auto l & r*/
+  }
+  h1{
+    text-align: center;
+    color: white;
+    background: #5a99e6;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 40px 0;
+  }
+  /* RGB section 200% larger than rest */
+  #colorDisplay{
+    font-size: 200%;
+  }
+  /* takes up 20% of container therefore pushing buttons away */
+  #message{
+    display: inline-block;
+    width: 20%;
+    text-transform: uppercase;
+    /* height: 100%; */
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .tryAgain{
+      color: #ff4a4a;
+  }
+  .correct{
+      color: #33de63;
+  }
+  #stripe{
+    background: white;
+    /* color: steelblue; */
+    text-align:center;
+    height: 30px;
+  }
+  .selected{
+    color: white;
+    background: #5a99e6;
+    
+  }
+  button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    /* btn takes up 100% height of its container */
+    height: 100%; 
+    font-weight: 700;
+    color: #5a99e6;
+    letter-spacing: 1px;
+    font-size: inherit;
+    /* when any property changes(i.e. color,background in this case) fade effect 0.3s*/
+    transition: all 0.3s;
+    /* for xtra browser support */
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    /* get rid of blue border when button clicked */
+    outline: none; 
+  }
+  button:hover{
+    color: white;
+    background: #5a99e6;
+    
+  }
